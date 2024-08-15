@@ -8,8 +8,8 @@ import (
 	"time"
 
 	"github.com/gin-gonic/gin"
+	"github.com/coder/websocket"
 
-	"nhooyr.io/websocket"
 )
 
 func (s *Server) RegisterRoutes() http.Handler {
